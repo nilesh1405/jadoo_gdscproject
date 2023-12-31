@@ -1,0 +1,323 @@
+*{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+body{
+    margin: 0;
+}
+header{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: #212832;
+}
+#logo{
+    height: 50px;
+    margin-right: 180px;
+    margin-top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+#signup{
+    border: 1px solid black;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #FFF1DA;
+}
+select{
+    font-size: 15px;
+    border: none;
+    margin-top: 0;
+    background-color: #FFF1DA;
+}
+main{
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+}
+#info{
+    height: 500px;
+    width: 560px;
+    margin-left: 0;
+}
+#know{
+    background-color: rgb(255, 165, 0);
+    color: white;
+    border-radius: 5px;
+    border:none;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+#girl{
+    margin: 0;
+}
+#Travel{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 50px; 
+    color: #181E4B;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(decore_line.png);
+    background-repeat: no-repeat;
+    background-position: 132px;
+    background-position-y: 61px;
+}
+#play{
+    
+    display: inline;
+}
+#services{
+    height: 525px;
+    width: 1300px;
+    margin-left: 20px;
+    background-image: url(stars.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#box1{
+    height: 227px;
+    width: 191px;
+    text-align: center;
+    margin-top: 46px;
+}
+#box2{
+    height: 348px;
+    width: 302px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(aerobg.png);
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+}
+#box2_1{
+    height: 314px;
+    width: 267px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#box3{
+    height: 227px;
+    width: 190px;
+    text-align: center;
+    margin-top: 46px;
+}
+#box4{
+    height: 227px;
+    width: 190px;
+    text-align: center;
+    margin-top: 46px;
+}
+.Destinations{
+    height: 607px;
+    width: 1300px;
+    margin-left: 40px;
+}
+.diffdes{
+    display: flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#des1{
+    height: 457px;
+    width: 315px;
+    background-image: url(rome.png);
+    background-position-y: top;
+    position: relative;
+    border-radius: 10px;
+}
+#des2{
+    height: 457px;
+    width: 315px;
+    background-image: url(london.jpg);
+    background-position-y: top;
+    position: relative;
+    border-radius: 10px;
+}
+#forspring{
+    width: 400px;
+    background-image: url(spring.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+#des3{
+    height: 457px;
+    width: 315px;
+    background-image: url(eurpoe.png);
+    background-position-y: top;
+    position: relative;
+    border-radius: 10px;
+}
+.desedits{
+    height: 130px;
+    width: 316px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 0;
+    border-radius: 10px;
+    background-color: white;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.n_p{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    
+}
+#des3{
+    display: flex;
+}
+#booking{
+    height: 492px;
+    width: 1114px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#heads{
+    color: #5E6282;
+    font-weight: bold;
+    font-size: 16px;
+}
+#values{
+    margin-left: 0;
+}
+#book_steps{
+    display: flex;
+}
+#details{
+    margin-bottom: 48px;
+    font-size: 16px;
+    width: 260px;
+}
+#testimonials{
+    margin-left: 100px;
+    height: 350px;
+    width: 1165px;
+    display: flex;
+    justify-content: space-between;
+}
+#ltest{
+    height: 354px;
+    width: 425px;
+}
+#logos{
+    height: 162px;
+    width: 1073px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#expedia{
+    height: 86px;
+    width: 214px;
+    position: relative;
+}
+#rec{
+    height: 86px;
+    width: 241px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10%;
+    margin-top: 25px;
+    margin-left: 0px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+#subscribe{
+    height: 494px;
+    width: 1226px;
+    background-image: url(stars2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+#subsection{
+    height: 407px;
+    width: 990px;
+    background-color: #D9D9D9;
+    margin-left: 150px;
+    border-radius: 15px;
+    border-top-left-radius: 150px;
+    margin-top: -46px;
+    background-image: url(spring1.png),url(spring3.png);
+    background-position-x: -86px,right;
+    background-repeat: no-repeat,no-repeat;
+    background-position-y: bottom,top;
+}
+textarea{
+    height: 68px;
+    width: 421px;
+    margin-left: 178px;
+    border: none;
+    border-radius: 15px;
+    color: #39425D;
+}
+#subs{
+    height: 68px;
+    width: 180px;
+    background-color: #FF946D;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+}
+footer{
+    margin-left: 150px;
+    height: 194px;
+    width: 370px;
+    display: flex;
+}
+#companydesk{
+    height: 133px;
+    width: 207px;
+    text-align: left;
+}
+#navcolumns{
+    height: 153px;
+    width: 700px;
+    display: flex;
+    margin-top: 20px;
+}
+#outbond{
+    height: 147px;
+    width: 214px;
+}
+h5{
+    color: #080809;
+    font-size: 21px;
+    font-weight: bold;
+}
+#company{
+    height: 100px;
+    width: 112px;
+    margin-left: 50px;
+}
+#contact{
+    height: 100px;
+    width: 112px;
+    margin-left: 50px;
+}
+#more{
+    height: 100px;
+    width: 128px;
+    margin-left: 50px;
+}
