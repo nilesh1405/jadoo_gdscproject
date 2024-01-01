@@ -54,6 +54,11 @@ main{
     height: 40px;
     margin-left: 20px;
     margin-top: 6px;
+    transition:  width 1s, height 1s;
+}
+#know:hover{
+    height: 50px;
+    width: 100px;
 }
 #girl{
     margin: 0;
@@ -100,6 +105,11 @@ main{
     background-image: url(aerobg.png);
     background-repeat: no-repeat;
     background-position-y:bottom;
+    transition:  width 1s, height 1s;
+}
+#box2:hover{
+    height: 368px;
+    width: 330px;
 }
 #box2_1{
     height: 314px;
@@ -108,6 +118,11 @@ main{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:  width 1s, height 1s;
+}
+#box2_1:hover{
+    height: 320px;
+    width: 276px;
 }
 #box3{
     height: 227px;
@@ -176,6 +191,10 @@ main{
     font-weight: 500;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.desedits:hover{
+    height: 140px;
+    width: 326px;
+}
 .n_p{
     display: flex;
     justify-content: space-between;
@@ -230,6 +249,10 @@ main{
     height: 86px;
     width: 214px;
     position: relative;
+}
+#expedia:hover{
+    transform: scale(1.5);
+    transition: transform .2s;
 }
 #rec{
     height: 86px;
@@ -320,4 +343,10 @@ h5{
     height: 100px;
     width: 128px;
     margin-left: 50px;
+}
+#hover1{
+    transition: transform .2s;
+}
+#hover1:hover{
+    transform: scale(1.5);
 }
